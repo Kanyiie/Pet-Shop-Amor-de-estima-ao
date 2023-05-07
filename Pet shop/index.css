@@ -28,3 +28,9 @@ a {
 h1 {
     text-align: center;
 }
+
+#cliente {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
