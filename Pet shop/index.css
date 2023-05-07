@@ -1,0 +1,30 @@
+.coluna {
+  display: flex;
+  background-color: #b4dbc8;
+  word-spacing: 1px;
+  font-style: normal;
+  align-items: center;
+  font-size: small;
+  justify-content: space-between;
+  gap: 30;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#imagem1 {
+    text-align: center;
+}
+
+.CLIENTES {
+    display: flex;
+    word-spacing: 100px;
+    gap: 80px;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+}
