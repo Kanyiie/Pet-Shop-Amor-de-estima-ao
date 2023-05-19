@@ -1,0 +1,30 @@
+.coluna {
+    display: flex;
+    background-color: #b4dbc8;
+    word-spacing: 1px;
+    font-style: normal;
+    align-items: center;
+    font-size: small;
+    justify-content: space-between;
+    gap: 10;
+  }
+  
+  a {
+      text-decoration: none;
+      color: black;
+  }
+
+  .loja {
+    display: flex;
+    text-align: center;
+    font-size: small;
+    background-color: #c2a286;
+    flex-direction: column;
+    gap: 5px;
+    color: white;
+  }
+
+  .produtos {
+    display: flex;
+    background-color: #b27843;
+  }
