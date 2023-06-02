@@ -5,7 +5,7 @@ margin: 0;
 
 .coluna {
   display: flex;
-  background-color: #b4dbc8;
+  background-color: #000000;
   word-spacing: 1px;
   font-style: normal;
   align-items: center;
@@ -16,7 +16,7 @@ margin: 0;
 
 a {
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 #imagem1 {
@@ -43,4 +43,9 @@ h1 {
 .video-1 {
     text-align: center;
     width: 100%;
+}
+
+.social {
+    background-color: #000000;
+    display: flex;
 }
