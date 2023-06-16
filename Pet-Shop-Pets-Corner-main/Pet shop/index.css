@@ -1,0 +1,57 @@
+* {
+padding: 0;
+margin: 0;
+}
+
+.coluna {
+  display: flex;
+  background-color: #000000;
+  word-spacing: 1px;
+  font-style: normal;
+  align-items: center;
+  font-size: small;
+  justify-content: space-between;
+  gap: 10;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+#imagem1 {
+    text-align: center;
+}
+
+.CLIENTES {
+    display: flex;
+    word-spacing: 100px;
+    gap: 80px;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+#cliente {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.video-1 {
+    text-align: center;
+    width: 100%;
+}
+
+.social {
+    background-color: #000000;
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    color: white;
+    justify-content: center;
+    word-spacing: 10px;
+    gap: 250px;
+}
