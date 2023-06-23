@@ -1,0 +1,39 @@
+.products-header {
+    background-color: #c2a286;
+    border-radius: 4px;
+    padding: 40px;
+  }
+
+  .coluna {
+    display: flex;
+    background-color: #000000;
+    word-spacing: 1px;
+    font-style: normal;
+    align-items: center;
+    font-size: small;
+    justify-content: space-between;
+    gap: 10;
+  }
+
+  a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.texto{
+ grid-row: 2/4;
+ grid-column: 2/6;
+ font-family: 'Pacifico', cursive;
+}
+.grid {
+    font-family: Arial, Helvetica, sans-serif;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: repeat(9, 1fr);
+    max-height: 99vh;
+    display: grid;
+}
+
+.imgcachorro {
+    grid-row: 2/4;
+    grid-column: 6/8;
+}
