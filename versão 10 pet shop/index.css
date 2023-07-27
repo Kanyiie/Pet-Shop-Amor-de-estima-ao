@@ -40,11 +40,6 @@ h1 {
     align-items: center;
 }
 
-.video-1 {
-    text-align: center;
-    width: 100%;
-}
-
 .social {
     background-color: #000000;
     display: flex;
@@ -53,4 +48,8 @@ h1 {
     justify-content: center;
     word-spacing: 10px;
     gap: 250px;
+}
+
+video {
+ width: 100vw;
 }
